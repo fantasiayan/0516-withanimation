@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url(backgroundswan.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DFDFDF;
+    border-radius: 10px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+    opacity: 0.85;
+}
+header h1 {
+    color: #299181;
+    text-align: center;
+    font-size: 45px;
+}
+nav {
+    color: #20E1F8;
+    text-align: center;
+}
+nav a:link {
+    color: #34929E;
+    text-decoration: overline;
+}
+nav a:hover {
+    color: #91F1F5;
+}
+article h3 {
+    height: 30px;
+    background-color: #8AE0D6;
+    border-radius: 20px;
+    padding-left: 13px;
+    line-height: 30px;
+}
+
+.videoone   {
+    text-align: center;
+}
+.firstpart {
+    background-position: center center;
+    height: 450px;
+    color: #F8F8F8;
+    border-radius: 38px;
+    background-image: url(balletmooncut.jpg);
+    padding-top: 26px;
+    background-size: contain;
+}
+.words{
+    color: #FFFFFF;
+    opacity: 0.8;
+    height: 153px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 97%;
+    padding-top: 3.2px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+}
+footer ul li a:link {
+    color: #000000;
+}
